@@ -1,0 +1,9 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: index-v1
+  namespace: kila
+data:
+  index.html: |
+    test kila 
+    2020/12/06
